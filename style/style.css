@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+  -moz-appearance: auto !important;
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --text-color: #333;
+  --color-light-gray: #ecf0f1;
+}
+
+.top-menu {
+  background-color: var(--text-color);
+  padding: 0.8rem 1rem;
+}
+@media screen and (max-width: 991px) {
+  .top-menu {
+    padding: 0.7rem 0.5rem;
+  }
+}
+.top-menu .language {
+  color: var(--color-white);
+}
+.top-menu strong {
+  color: var(--color-white);
+  margin-right: 0.5rem;
+  display: block;
+  font-size: 1rem;
+}
+.top-menu a {
+  color: var(--color-white);
+  opacity: 0.5;
+}
+.top-menu a.active {
+  opacity: 1;
+}
+.top-menu span {
+  color: var(--color-white);
+}
+
+header {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--text-color);
+}
+@media screen and (max-width: 991px) {
+  header {
+    padding: 0.7rem 0.5rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  header .navbar {
+    flex-wrap: initial;
+  }
+}
+header .collapse {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 1200px) {
+  header .collapse {
+    margin-left: 1rem;
+  }
+}
+header .collapse ul li {
+  margin-right: 1.5rem;
+}
+@media screen and (max-width: 1200px) {
+  header .collapse ul li {
+    margin-right: 1rem;
+  }
+}
+header .collapse ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+header .collapse ul li a:hover {
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  header .collapse ul li a {
+    font-size: 1.1rem;
+  }
+}
+header .navbar-brand {
+  max-width: 12rem;
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  header .navbar-brand {
+    max-width: 9rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  header .navbar-nav {
+    display: none;
+  }
+}
+header .nav-item .nav-link {
+  color: var(--text-color);
+}
+header .right a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .right a span {
+  color: var(--text-color);
+  display: block;
+  margin-left: 0.2rem;
+}
+@media screen and (max-width: 600px) {
+  header .right span {
+    font-size: 0.8rem !important;
+  }
+}
+header .right .star {
+  max-width: 1.3rem;
+}
+@media screen and (max-width: 600px) {
+  header .right .star {
+    max-width: 1.1rem;
+  }
+}
+
+.banner .container {
+  padding: 3rem 2rem;
+}
+@media screen and (max-width: 1550px) {
+  .banner .container {
+    padding: 3rem 5rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner .container {
+    padding: 3rem 2rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner .container {
+    padding: 2rem 1.2rem;
+  }
+}
+.banner .container .content {
+  padding-left: 3rem;
+}
+@media screen and (max-width: 1200px) {
+  .banner .container .content {
+    padding-left: 0rem;
+  }
+}
+.banner .container .content h1 {
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 1550px) {
+  .banner .container .content h1 {
+    font-size: 2.1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner .container .content h1 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner .container .content h1 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+}
+.banner .container .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text-color);
+}
+@media screen and (max-width: 1200px) {
+  .banner .container .content p {
+    font-size: 0.8rem;
+  }
+}
+.banner .container .content h2 {
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+@media screen and (max-width: 1200px) {
+  .banner .container .content h2 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner .container .content h2 {
+    margin-top: 1rem;
+  }
+}
+.banner .container .content .menu-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 1200px) {
+  .banner .container .content .menu-title {
+    font-size: 0.9rem;
+  }
+}
+.banner .container .content .summary {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+@media screen and (max-width: 1200px) {
+  .banner .container .content .summary {
+    font-size: 0.8rem;
+  }
+}
+.banner .container .content span {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+footer {
+  padding: 0.5rem 1rem;
+}
+@media screen and (max-width: 991px) {
+  footer {
+    padding: 0.7rem 0.5rem;
+  }
+}
+footer .navbar-brand {
+  max-width: 12rem;
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  footer .navbar-brand {
+    max-width: 9rem;
+  }
+}/*# sourceMappingURL=style.css.map */

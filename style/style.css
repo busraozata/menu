@@ -152,12 +152,7 @@ header .right .star {
 }
 
 .banner .container {
-  padding: 3rem 2rem;
-}
-@media screen and (max-width: 1550px) {
-  .banner .container {
-    padding: 3rem 5rem;
-  }
+  padding: 3rem 1rem;
 }
 @media screen and (max-width: 1200px) {
   .banner .container {
@@ -246,6 +241,71 @@ header .right .star {
 .banner .container .content span {
   font-weight: 600;
   color: var(--text-color);
+}
+
+.sub-banner {
+  min-height: 30rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sub-banner .container-fluid {
+  padding: 0;
+}
+.sub-banner .content {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7529411765);
+  padding: 3rem 7rem 3rem 2rem;
+}
+.sub-banner .content .logo {
+  max-width: 14rem;
+  margin-bottom: 1rem;
+}
+.sub-banner .content h1 {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 400;
+}
+.sub-banner .content a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sub-banner .content a span {
+  color: var(--text-color);
+  display: block;
+  margin: 0.5rem 0rem;
+  margin-left: 0.2rem;
+}
+@media screen and (max-width: 600px) {
+  .sub-banner .content span {
+    font-size: 0.8rem !important;
+  }
+}
+.sub-banner .content .star {
+  max-width: 1.3rem;
+}
+@media screen and (max-width: 600px) {
+  .sub-banner .content .star {
+    max-width: 1.1rem;
+  }
+}
+
+.menu-section ul {
+  display: flex;
+  overflow: auto;
+}
+.menu-section ul li {
+  padding-right: 2.8rem;
+  padding-left: 0.5rem;
+}
+.menu-section ul li a {
+  white-space: nowrap;
+}
+.menu-section .accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
 }
 
 footer {

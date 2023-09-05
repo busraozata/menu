@@ -155,10 +155,8 @@ header {
 
 .banner {
     .container {
-        padding: 3rem 2rem;
-        @media screen and (max-width: 1550px) {
-            padding: 3rem 5rem;
-        }
+        padding: 3rem 1rem;
+      
         @media screen and (max-width: $xl-breakpoint) {
             padding: 3rem 2rem;
         }
@@ -226,6 +224,75 @@ header {
                 color: var(--text-color);
             }
         }
+    }
+}
+
+.sub-banner{
+    min-height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .container-fluid{
+        padding: 0;
+    }
+
+    .content{
+        display: inline-block;
+        background-color: #ffffffc0;
+        padding: 3rem 7rem 3rem 2rem;
+        .logo{
+            max-width: 14rem;
+            margin-bottom: 1rem;
+        }
+        h1{
+            color: var(--text-color);
+            font-size: 2rem;
+            font-weight: 400;
+        }
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            span {
+                color: var(--text-color);
+                display: block;
+                
+                margin: 0.5rem 0rem;
+                margin-left: 0.2rem;
+            }
+        }
+        span{
+            @media screen and (max-width: $sm-breakpoint) {
+                font-size: 0.8rem !important;
+            }
+        }
+        
+        .star {
+            max-width: 1.3rem;
+            @media screen and (max-width:$sm-breakpoint) {
+                max-width: 1.1rem;
+            }
+        }
+    }
+}
+
+.menu-section{
+    ul{
+        display: flex;
+        overflow: auto;
+        li{
+            padding-right: 2.8rem;
+            padding-left: 0.5rem;
+            a{
+                white-space: nowrap;
+            }
+        }
+    }
+    .accordion-button:not(.collapsed)::after{
+        transform: rotate(180deg);
     }
 }
 

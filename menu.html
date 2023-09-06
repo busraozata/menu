@@ -4,15 +4,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="top-menu">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-12 col-6 d-flex justify-content-center">
+                    <strong>We open in</strong>
+                    <span>
+                        <span class="days"></span>
+                        <span class="hours">03</span>
+                        <span class="minutes">51</span>
+                        <span class="seconds">35</span>
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header class="header d-flex flex-column justify-content-center align-items-center">
+        <div class="container-fluid">
+            <nav class="navbar">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.jpeg" alt="header logo">
+                </a>
+                <div class="d-flex align-items-center">
+                    <div class="social-media d-flex align-items-center justify-content-center">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="dropdown">
+
+                        <button class="btn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            TR <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">TR</button></li>
+                            <li><button class="dropdown-item" type="button">DE</button></li>
+                            <li><button class="dropdown-item" type="button">EN</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--  <form class="navbar-form" role="search">
+                <div class="input-group add-on">
+                    <input class="form-control" placeholder="Ürün Ara" name="srch-term" id="srch-term" type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </form> -->
+            <div class="menu-list-area">
+                <div class="row">
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#headingOne">TOP SELLERS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#headingTwo">KEBAB</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#headingThree">MEALS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#headingFour">KIDS MEAL</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">GOZLEME</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">TURKISH PIZZAS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">SOUPS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">SALADS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">SIDES</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">DIPS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">DESSERTS</a>
+                    </div>
+                    <div class="col-7 col-lg-1 col-md-4 text-center">
+                        <a href="#">DRINKS</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!--  <div class="top-menu">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-6">
@@ -33,82 +130,1666 @@
 
             </div>
         </div>
-    </div>
-    <section class="sub-banner"
-        style="background: url(./img/mixed-kebab.jpeg) no-repeat; background-size: cover; background-position: left;">
+    </div> -->
+
+    <section class="sub-banner" style="background: url(./img/mixed-kebab.jpeg) no-repeat; background-size: cover; background-position: left;">
         <div class="container-fluid">
-            <div class="content">
-                <img src="./img/logo.svg" class="img-fluid logo" alt="logo">
+            <!-- <div class="content">
+                <img src="./img/logo.jpeg" class="img-fluid logo" alt="logo">
                 <h1>Mernda Kebab House</h1>
-                <span>Turkish</span>
-                <a href="#">
-                    <img class="img-fluid star" src="./img/star-orange.svg" alt="star-orange">
-                    <span>4.3</span>
-                </a>
+              
                 <p>
                     1435 Plenty Rd, Mernda Vic 3754
                 </p>
-            </div>
+            </div> -->
         </div>
     </section>
-<!--     <section class="menu-section">
+
+    <section class="content-section">
         <div class="container-fluid">
             <div class="row">
-                <ul>
-                    <li><a href="#">TOP SELLERS</a></li>
-                    <li><a href="#">KEBAB</a></li>
-                    <li><a href="#">MEALS</a></li>
-                    <li><a href="#">KIDS MEAL</a></li>
-                    <li><a href="#">GOZLEME</a></li>
-                    <li><a href="#">TURKISH PIZZAS</a></li>
-                    <li><a href="#">SOUPS</a></li>
-                    <li><a href="#">SALADS</a></li>
-                    <li><a href="#">SIDES</a></li>
-                    <li><a href="#">DIPS</a></li>
-                    <li><a href="#">DESSERTS</a></li>
-                    <li><a href="#">DRINKS</a></li>
-                </ul>
-            </div>
-        </div>
-    </section> -->
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Item #1
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    TOP SELLERS
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in felis
-                                    dignissim, imperdiet nulla vitae, condimentum nulla. Ut scelerisque a nisl sit amet
-                                    facilisis. Etiam blandit iaculis tellus, vitae condimentum leo congue a. Vivamus in
-                                    vehicula massa. Pellentesque libero libero, commodo lacinia volutpat non, tincidunt
-                                    at lectus. Maecenas ipsum turpis, viverra vitae lacus eu, fringilla ultricies erat.
-                                    Aenean hendrerit maximus sodales.
+                                    <div class="row">
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                      
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    KEBAB
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                    MEALS
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                    KIDS MEAL
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mb-4">
+                                            <div class="box">
+                                                <h5>
+                                                    Mixed Kebab
+                                                </h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam officia quaerat omnis quos saepe!</p>
+                                                <div>
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-lg-10">
+                                                                <div class="row">
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                                                5 TL' lik ürün ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                                            <label class="form-check-label" for="flexCheckDefault2">
+                                                                                Kola ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                                                            <label class="form-check-label" for="flexCheckDefault3">
+                                                                                Servis ekle
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-6">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                                                            <label class="form-check-label" for="flexCheckDefault4">
+                                                                                temassız teslim
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-2">
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                    <option value="1" selected>1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn">
+                                                            <i class="fa-solid fa-plus"></i>
+                                                        </button>
+
+
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!--   <div class="col-lg-4">
+                    <div class="sidebar">
+                        <div class="order-box">
+                            <h3>ORDER BASKET</h3>
+                            <span>The store is open now.</span>
+                            <div class="text-center">
+                                <a href="#" class="btn">
+                                    PICKUP ONLY
+                                </a>
+                            </div>
+                            <form action="">
+                                <div class="form-group d-flex flex-column">
+                                    <label for="">Pickup Time </label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected><span>ASAP Please</span></option>
+                                        <option value="1"><span>06:30 PM</span></option>
+                                        <option value="1"><span>06:45 PM</span></option>
+                                        <option value="1"><span>07:15 PM</span></option>
+                                    </select>
+                                </div>
+                                <div class="cart-lines">
+                                    <div class="item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-3">
+                                                <select class="form-select" aria-label="Default select example" name="languages">
+                                                    <option selected><span>1</span></option>
+                                                    <option value="1"><span>2</span></option>
+                                                    <option value="1"><span>3</span></option>
+                                                    <option value="1"><span>4</span></option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h6>Shepherd Salad</h6>
+                                                <span class="text-start">Small</span>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="right text-end">
+                                                    <a href="">
+                                                        <img src="./img/trash.svg" class="img-fluid" alt="" style="max-width: 1.2rem; margin-right: 0.5rem;">
+                                                    </a>
+                                                    <strong>$6.00</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-3">
+                                                <select class="form-select" aria-label="Default select example" name="languages">
+                                                    <option selected><span>1</span></option>
+                                                    <option value="1"><span>2</span></option>
+                                                    <option value="1"><span>3</span></option>
+                                                    <option value="1"><span>4</span></option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h6>Shepherd Salad</h6>
+                                                <span class="text-start">Small</span>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="right text-end">
+                                                    <a href="">
+                                                        <img src="./img/trash.svg" class="img-fluid" alt="" style="max-width: 1.2rem; margin-right: 0.5rem;">
+                                                    </a>
+                                                    <strong>$6.00</strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <span class="text-start ">5.00% OFF on first order
+                                    </span>
+                                    <span>
+                                        - $0.60
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <strong>ORDER TOTAL</strong>
+                                    <span>$11.40
+                                    </span>
+                                </div>
+                                <div class="text-end">
+                                    <button class="btn">
+                                        ORDER FOR PICKUP NOW
+                                    </button>
+                                </div>
+                            </form>
 
-                </div>
+                        </div>
+                    </div>
+
+                </div> -->
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

@@ -1154,6 +1154,9 @@ footer {
 
 .orders {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .my-orders {
         background-color: #007fff;
         position: fixed;

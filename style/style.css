@@ -1206,6 +1206,9 @@ footer .copyright .right {
 
 .orders {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .orders .my-orders {
   background-color: #007fff;

@@ -1215,7 +1215,6 @@ footer .copyright .right {
 }
 @media screen and (max-width: 600px) {
   .orders .my-orders {
-    right: 0;
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
